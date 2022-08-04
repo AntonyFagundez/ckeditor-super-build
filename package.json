@@ -1,5 +1,5 @@
 {
-  "name": "ckeditor5-custom-build",
+  "name": "@antonyfagundez/ckeditor5-custom-build",
   "author": "CKSource",
   "description": "A custom CKEditor 5 build made by the CKEditor 5 online builder. Contains all plugins",
   "version": "1.0.0",
@@ -37,5 +37,12 @@
   },
   "scripts": {
     "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AntonyFagundez/ckeditor-super-build"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

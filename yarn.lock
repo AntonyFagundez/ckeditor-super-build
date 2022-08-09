@@ -103,6 +103,13 @@
     "@babel/helper-validator-identifier" "^7.18.6"
     to-fast-properties "^2.0.0"
 
+"@ckeditor/ckeditor5-alignment@^35.0.1":
+  version "35.0.1"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-alignment/-/ckeditor5-alignment-35.0.1.tgz#f591d769f8892f864241ae2bf6703913b20aadd3"
+  integrity sha512-sfNLRQZ5RphFnp6tfXY93rLx4kklqlY1uXPVuh4ZOaa/e3fIU4SBYiy1N4oGtJT6HGf+1BAkTb5ULNyAww+RAw==
+  dependencies:
+    ckeditor5 "^35.0.1"
+
 "@ckeditor/ckeditor5-autoformat@^35.0.1":
   version "35.0.1"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-autoformat/-/ckeditor5-autoformat-35.0.1.tgz#37303c8ac9f0112218d48e1f632b32858eb738c1"
@@ -222,6 +229,13 @@
   version "35.0.1"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-essentials/-/ckeditor5-essentials-35.0.1.tgz#0461c49c1d097b6c271b1d1e066685e324af7f31"
   integrity sha512-uHfup2e2tETnuvJmHgey/JAYMdeK9eIe5VW2Ah4Q8Ndiu/Buajf+PFYWRFrnC8psaYyE3+vdHRwxV3SD/yZeKQ==
+  dependencies:
+    ckeditor5 "^35.0.1"
+
+"@ckeditor/ckeditor5-font@^35.0.1":
+  version "35.0.1"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-font/-/ckeditor5-font-35.0.1.tgz#f7dd32a068c243c93d898837e7d93a1e7feb3550"
+  integrity sha512-xNQBM/5vW9mjE2nro5RYCLsIlVxPKFYb+751XGA9B5XOtw5gV3dhxT0QQrhE8IFBF4hacKJYPuhgfLRkSTF+ag==
   dependencies:
     ckeditor5 "^35.0.1"
 

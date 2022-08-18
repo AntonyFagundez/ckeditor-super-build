@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+Copyright (c) 2003-2022, CKSource Holding sp. z o.o. All rights reserved.
+This file is licensed under the terms of the MIT License (see LICENSE.md).
+-->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>CKEditor 5 Framework – timestamp plugin</title>
+		<script src="build/ckeditor.js"></script>
+	</head>
+	<body>
+		<div id="editor">
+			
+		</div>
+        <script >
+            ClassicEditor
+                .create( document.querySelector( '#editor' ) )
+                .then( editor => {
+                    window.editor = editor;
+                } )
+                .catch( error => {
+                    console.error( 'There was a problem initializing the editor.', error );
+                } );
+        </script>
+
+	</body>
+</html>

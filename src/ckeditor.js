@@ -33,7 +33,7 @@ import List from '@ckeditor/ckeditor5-list/src/list';
 import Mention from '@ckeditor/ckeditor5-mention/src/mention';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
-
+import Ancla from './plugins/Ancla';
 
 
 
@@ -71,6 +71,7 @@ Editor.builtinPlugins = [
 	FontBackgroundColor,
 	FontColor,
 	FontSize,
+	Ancla
 ];
 
 // Editor configuration.
@@ -84,7 +85,7 @@ Editor.defaultConfig = {
 			'outdent',
 			'indent',
 			'|',
-			'insertTable'
+			'ancla'
 		]
 	},
 	language: 'es',
@@ -102,7 +103,8 @@ Editor.defaultConfig = {
 			'tableRow',
 			'mergeTableCells'
 		]
-	}
+	},
+
 };
 
 export default Editor;

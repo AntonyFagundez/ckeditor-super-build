@@ -320,14 +320,6 @@
     "@ckeditor/ckeditor5-ui" "^35.0.1"
     "@ckeditor/ckeditor5-utils" "^35.0.1"
 
-"@ckeditor/ckeditor5-table@^35.0.1":
-  version "35.0.1"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-table/-/ckeditor5-table-35.0.1.tgz#7a1a3c339cd3f74cf7024f15f772bd2c2a9877b5"
-  integrity sha512-XKZHGn/MbLfxIqdaVKD62DfOBUKPV0MlKhfpc941LENOb2qhqvmixhdlde7vVi+0k1HzumRj1BQFUOVvncAEiA==
-  dependencies:
-    ckeditor5 "^35.0.1"
-    lodash-es "^4.17.15"
-
 "@ckeditor/ckeditor5-theme-lark@^35.0.1":
   version "35.0.1"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-theme-lark/-/ckeditor5-theme-lark-35.0.1.tgz#218e2baf8dbc8910ea84b60c87f7b0a78c4d2102"

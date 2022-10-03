@@ -24,10 +24,7 @@ import Font from '@ckeditor/ckeditor5-font/src/font';
 import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor';
 import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor';
 import FontSize from '@ckeditor/ckeditor5-font/src/fontsize';
-import Table from '@ckeditor/ckeditor5-table/src/table'
-import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar'
 import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed';
-
 import Link from '@ckeditor/ckeditor5-link/src/link';
 import List from '@ckeditor/ckeditor5-list/src/list';
 import Mention from '@ckeditor/ckeditor5-mention/src/mention';
@@ -38,7 +35,7 @@ import Ancla from './plugins/Ancla';
 
 
 
-class Editor extends ClassicEditor {}
+class Editor extends ClassicEditor { }
 
 // Plugins to include in the build.
 Editor.builtinPlugins = [
@@ -58,8 +55,7 @@ Editor.builtinPlugins = [
 	List,
 	MediaEmbed,
 	Mention,
-	Table,
-	TableToolbar,
+
 	Paragraph,
 	TextTransformation,
 	Strikethrough,
@@ -97,13 +93,7 @@ Editor.defaultConfig = {
 			'imageStyle:side'
 		]
 	},
-	table: {
-		contentToolbar: [
-			'tableColumn',
-			'tableRow',
-			'mergeTableCells'
-		]
-	},
+
 
 };
 
